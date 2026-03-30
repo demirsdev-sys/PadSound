@@ -24,16 +24,22 @@ PadSound is a low-latency soundboard system that allows you to play audio files 
 ### 1. PC Server Setup
 - Install VB-Audio Virtual Cable.
 - Run `PadSound_Installer.exe`.
-- Right-click the PadSound icon in the system tray and set "Broadcast Output" to "CABLE Input".
+- Right-click the PadSound icon in the system tray and set **"Broadcast Output"** to **"CABLE Input"**.
 
 ### 2. Windows Audio Routing (Critical)
-To ensure your voice and the soundboard play together, follow these steps:
-- Open Windows Sound Settings > Control Panel > Recording tab.
-- Right-click your **Main Microphone** and select Properties.
-- Go to the **Listen** tab.
-- Check **"Listen to this device"**.
-- In the "Playback through this device" dropdown, select **CABLE Input (VB-Audio Virtual Cable)**.
-- **Note:** In the properties of **CABLE Output**, ensure "Listen to this device" is **Unchecked** to avoid feedback loops.
+To ensure your voice and the soundboard play together, you must route your microphone to the virtual cable:
+
+1. Open **Windows Sound Settings** > **Control Panel** > **Recording** tab.
+2. Right-click your **Main Microphone** and select **Properties**.
+3. Go to the **Listen** tab.
+4. Check **"Listen to this device"**.
+5. In the **"Playback through this device"** dropdown, select **CABLE Input (VB-Audio Virtual Cable)**.
+
+![Microphone Routing Setup](1.png)
+
+6. **Note:** Ensure that in the properties of **CABLE Output**, the **"Listen to this device"** option is **Unchecked**. This prevents feedback loops and echoes.
+
+![Cable Output Setup](2.png)
 
 ### 3. Application Settings
 - In Discord, OBS, or Zoom, set your **Input Device (Microphone)** to **CABLE Output**.
@@ -42,18 +48,18 @@ To ensure your voice and the soundboard play together, follow these steps:
 - Install the PadSound APK.
 - Ensure both PC and Phone are on the same Wi-Fi network.
 - Enter the Local IP address shown in the PC Tray Menu.
-- Click "Connect and Start".
+- Click **"Connect and Start"**.
 
 ## Usage
 
-- Adding Sounds: Use the '+' button in the app to import MP3 files.
-- Playing: Tap any button to trigger the sound on your PC.
-- Managing: Long-press any button to rename, delete, or assign a custom image.
+- **Adding Sounds:** Use the '+' button in the app to import MP3 files.
+- **Playing:** Tap any button to trigger the sound on your PC.
+- **Managing:** Long-press any button to rename, delete, or assign a custom image.
 
 ## Technical Stack
 
-- Server: Python (PyQt5, Pygame, SoundDevice)
-- Mobile: Java (Android SDK, uCrop, Gson)
+- **Server:** Python (PyQt5, Pygame, SoundDevice)
+- **Mobile:** Java (Android SDK, uCrop, Gson)
 
 ## Developer
 Developed by Furkan Demir (Demirsdev).
