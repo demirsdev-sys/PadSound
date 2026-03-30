@@ -1,5 +1,7 @@
 # PadSound - Mobile Controlled PC Soundboard
 
+## 📥 [Download Latest Installer](https://github.com/demirsdev-sys/PadSound/releases/latest)
+
 PadSound is a low-latency soundboard system that allows you to play audio files on your PC via an Android device. It uses virtual audio routing to broadcast both your microphone and soundboard audio through communication apps like Discord, TeamSpeak, or OBS.
 
 ## Features
