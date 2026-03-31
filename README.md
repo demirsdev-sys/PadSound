@@ -22,7 +22,7 @@ PadSound is a low-latency soundboard system that allows you to play audio files 
 ## Installation and Audio Configuration
 
 ### 1. PC Server Setup
-- Install VB-Audio Virtual Cable.
+- Install VB-Audio Virtual Cable("https://vb-audio.com/Cable/").
 - Run `PadSound_Installer.exe`.
 - Right-click the PadSound icon in the system tray and set **"Broadcast Output"** to **"CABLE Input"**.
 
