@@ -63,16 +63,16 @@ To ensure your voice and the soundboard play together, you must route your micro
 
 ## Technical Stack
 
-- **Server:** Python 3.11 · PyQt5 · pygame (SDL2) · sounddevice · soundfile · PyInstaller
-  Windows Audio Session API (WASAPI) · VB-Audio Virtual Cable
+- **Server:** Python 3.11 · PyQt5 · pygame (SDL2) · sounddevice · soundfile · PyInstaller · Windows Audio Session API (WASAPI) · VB-Audio Virtual Cable
 
-- **Mobile:** Java — Android SDK 21+
-  ├── UI       RecyclerView · GridLayoutManager · MaterialCardView · ValueAnimator
-  ├── Network  UDP (DatagramSocket) · TCP (Socket) · FileSender
-  ├── Storage  SharedPreferences · ContentResolver · PersistableUriPermission
-  ├── Media    MediaMetadataRetriever · MediaPlayer
-  ├── Libs     uCrop · Gson · AdMob (Banner + Interstitial)
-  └── System   ActivityResultLauncher · OnBackPressedDispatcher
+- **Mobile:** Java · Android SDK 21+
+  - **UI** — RecyclerView · GridLayoutManager · MaterialCardView · ValueAnimator
+  - **Network** — UDP (DatagramSocket) · TCP (Socket) · FileSender
+  - **Storage** — SharedPreferences · ContentResolver · PersistableUriPermission
+  - **Media** — MediaMetadataRetriever · MediaPlayer
+  - **Libs** — uCrop · Gson · AdMob (Banner + Interstitial)
+  - **System** — ActivityResultLauncher · OnBackPressedDispatcher
+
 
 
 
