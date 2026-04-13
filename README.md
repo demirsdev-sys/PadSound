@@ -63,7 +63,10 @@ To ensure your voice and the soundboard play together, you must route your micro
 
 ## Technical Stack
 
-- **Server:** Python (PyQt5, Pygame, SoundDevice)
+- **Server:** Python 3.11 · PyQt5 · pygame (SDL2) · pycaw · comtypes
+sounddevice · soundfile · PyInstaller
+Windows Audio Session API (WASAPI) via COM/IPolicyConfig
+
 - **Mobile:** Java (Android SDK, uCrop, Gson)
 
 ## Developer
