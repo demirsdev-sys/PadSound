@@ -41,11 +41,16 @@ To ensure your voice and the soundboard play together, you must route your micro
 
 ![Cable Output Setup](2.png)
 
+7. Choose Your Microphone
+
+![Microphone Selection](3.png)
+
+
 ### 3. Application Settings
 - In Discord, OBS, or Zoom, set your **Input Device (Microphone)** to **CABLE Output**.
 
 ### 4. Android App
-- Install the PadSound APK.
+- Install the PadSound in Play Store.
 - Ensure both PC and Phone are on the same Wi-Fi network.
 - Enter the Local IP address shown in the PC Tray Menu.
 - Click **"Connect and Start"**.
